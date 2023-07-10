@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  
+ 
+}
+
+.quality__tile{
+  @apply text-[20px] font-medium bg-bgButton flex justify-center items-center text-center text-white w-[260px] h-[76px] rounded-[38px] border-[12px] border-white outline-white;
+}
+.common__headings{
+  @apply text-[40px] text-center md:text-[45px] lg:text-[50px] font-medium;
+}
+.ul__list{
+ @apply  w-[269px] h-[350px];
+}
+.ul__item{
+  @apply text-2xl font-medium m-2;
+}
+.automation__main{
+  @apply max-w-[963px] min-h-[448px] border-4 border-[#EFEFEF] shadow-black rounded-[42px] ;
+}
+.expert__tab{
+  @apply w-[315px] h-[230px] rounded-[22px] border-[#E3E3E3] border-solid ;
+}
+.price__tile{
+  @apply min-w-[165px] min-h-[108px] max-w-[183px] max-h-[150px];
+}
+.getStarted__button{
+  @apply w-[270px] h-[70px] rounded-[35px] bg-bgButton justify-center items-center text-white text-lg font-normal;
+}
+.background{
+  background-image: url("../Assets/Images/png/bg_blur.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.para{
+  margin-top: 40px;
+  width: 440px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #878787;
+}
+@media  screen and (max-width:500px) {
+  .para{
+    width: 250px;
+  }
+}
+.textfooter{
+  color: #878787;
+}
+.backgro{
+  background-image: url(../Assets//Images/svg/mapSmall.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.small__input{
+ @apply w-full md:w-[225px] h-[60px] border border-gray-300 px-4 rounded-lg focus:outline-none focus:border-bgButton;
+}
+.large__input{
+  @apply w-full max-w-[550px] h-[60px] border border-gray-300 px-4 rounded-lg focus:outline-none focus:border-bgButton;
+}
+.bg__black{
+  background-image: url(../Assets/Images/png/Black-bg.png),url(../Assets/Images/png/grey__bg.png);
+  background-position: center bottom, bottom center;
+background-size: cover contain;
+  background-repeat: no-repeat;
+ width: 100%;
+ 
+}
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
