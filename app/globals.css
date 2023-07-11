@@ -89,5 +89,5 @@ html{
   }
 }
 .bg_black{
-  background-image: url(../Assets/Images/png/bgBlackShort.png);
+background-image: url(./background.svg);
 }
