@@ -23,7 +23,6 @@ export default function LogInForm() {
           LogIn
         </button>
         <div className="flex flex-row  m-auto">
-      
           <p className="text-gray-500 text-center font-space-grotesk text-base font-normal mb-4 font-space">
             A code was emailed to you at
           </p>
@@ -37,7 +36,16 @@ export default function LogInForm() {
         placeholder="Enter Code Here"
         className="large__input"
       />
-         <div className="flex flex-row "> <p className="text-gray-500 text-center font-space-grotesk text-base font-normal font-space">Don't have an account?  </p> <span className="text-bgButton font-space-grotesk text-normal underline font-normal " > Sign up for access</span></div>
+      <div className="flex flex-row ">
+        {" "}
+        <p className="text-gray-500 text-center font-space-grotesk text-base font-normal font-space">
+          Don't have an account?{" "}
+        </p>{" "}
+        <span className="text-bgButton font-space-grotesk text-normal underline font-normal ">
+          {" "}
+          Sign up for access
+        </span>
+      </div>
     </div>
   );
 }
