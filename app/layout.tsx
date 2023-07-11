@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='overflow-x-hidden'>
+    <html lang="en" className='overflow-x-hidden font-space'>
 
       <body className={inter.className}>{children}</body>
     </html>

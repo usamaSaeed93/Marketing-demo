@@ -6,8 +6,8 @@ import arrow from '../../Assets/Images/svg/arrow.svg'
 export default function EasyHiring() {
     return (
         <div className='mb-[80px] lg:mb-[145px]'>
-            <p className='common__headings mt-[80px] lg:mt-[145px] px-4'>Global Fractional Hiring Made Easy</p>
-            <p className='mb-[130px] text-2xl font-normal  p-4 text-center'>We find you amazing talent that you can hire on a fractional basis in 24 hours - It's that simple.</p>
+            <p className='common__headings mt-[80px] lg:mt-[145px] px-4 font-space'>Global Fractional Hiring Made Easy</p>
+            <p className='mb-[130px] text-2xl font-normal  p-4 text-center font-space'>We find you amazing talent that you can hire on a fractional basis in 24 hours - It's that simple.</p>
 
         <div className='flex flex-col lg:flex-row justify-evenly items-center gap-[24px] md:gap-0'>
             <Image

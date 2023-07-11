@@ -22,29 +22,29 @@ export default function TalentTab() {
                     alt='avatar'
                     className='items-center m-auto max-w-[188px] min-w-[150px] fill-current'
                 />
-                <p className='font-bold text-3xl sm:text-4xl text-center'>Adam</p>
-                <p className='text-lg sm:text-2xl font-normal text-center m-auto'>Data Analyst & BI Tools</p>
+                <p className='font-bold text-3xl sm:text-4xl text-center font-space'>Adam</p>
+                <p className='text-lg sm:text-2xl font-normal text-center m-auto font-space'>Data Analyst & BI Tools</p>
                 <div className='  flex flex-col gap-3 mt-3 p-2 w-11/12 '>
                     <div className='flex flex-row sm:gap-20 md:gap-10 lg:gap-20 gap-0 items-between justify-between'>
-                        <span className='text-base sm:text-large '>
+                        <span className='text-base sm:text-large font-space '>
                             Salary
                         </span>
-                        <span className='font-bold text-sm sm:text-large'>
+                        <span className='font-bold text-sm sm:text-large font-space'>
                             $80/hours
                         </span>
                     </div>
 
 
                     <div className='flex flex-row items-between justify-between'>
-                        <span className='text-base sm:text-large'>
+                        <span className='text-base sm:text-large font-space'>
                             Years of Experience
                         </span>
-                        <span className='text-sm sm:text-large font-bold'>
+                        <span className='text-sm sm:text-large font-bold font-space'>
                             10+
                         </span>
                     </div>
                     <div className='flex flex-row justify-between gap-x-1/2 '>
-                        <span className='text-base sm:text-large'>
+                        <span className='text-base sm:text-large font-space'>
                             Communication Skills
                         </span>
                         <span className='mb-2 text-sm sm:text-large'>

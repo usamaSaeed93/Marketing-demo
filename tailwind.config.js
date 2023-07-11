@@ -33,6 +33,8 @@ module.exports = {
         black:"#000",
         bgButton:"#4F59CC",
         footer:"#878787;"
+      },fontFamily:{
+        space: ['Space Grotesk', 'sans-serif']
       }
     },
   },

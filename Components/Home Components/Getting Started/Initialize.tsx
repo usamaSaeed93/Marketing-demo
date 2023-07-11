@@ -11,14 +11,14 @@ function Initialize() {
         <>
 
             <div className='flex flex-col  m-auto py-10 gap-4'>
-                <div className='flex flex-col md:flex-row  md:flex-wrap items-center justify-evenly m-auto md:m-0 gap-10'>
+                <div className='flex flex-col md:flex-row flex-wrap  lg:flex-nowrap  items-center justify-evenly m-auto md:m-0 gap-10 pb-20'>
                     <Writtings />
                     <TeamWork />
                     <MatchedTopTalent />
                     <Platform />
 
                 </div>
-<button className='getStarted__button m-auto'>
+<button className='getStarted__button m-auto mb-36 shadow-[0px_30px_40px_-20px] shadow-[#4F59CC] font-space'>
 Get Started
 </button>
                 {/* <Image

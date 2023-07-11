@@ -19,29 +19,29 @@ export default function ExpertTab() {
                     alt='avatar'
                     className='items-center m-auto w-20 sm:w-24'
                 />
-                <p className='font-bold text-2xl text-center'>Adam</p>
-                <span className='text-xs font-normal text-center ml-auto'>Data Analyst & BI Tools</span>
+                <p className='font-bold text-2xl text-center font-space'>Adam</p>
+                <p className='text-xs font-normal text-center ml-auto font-space'>Data Analyst & BI Tools</p>
                 <div className='  flex flex-col gap-3 mt-3 p-2 '>
                     <div className='flex flex-row sm:gap-20 md:gap-10 lg:gap-20 gap-0 items-between justify-between'>
-                        <span className='text-sm '>
+                        <span className='text-sm font-space'>
                             Salary
                         </span>
-                        <span className='font-bold text-sm'>
+                        <span className='font-bold text-sm font-space'>
                             $80/hours
                         </span>
                     </div>
 
 
                     <div className='flex flex-row items-between justify-between'>
-                        <span className='text-xs'>
+                        <span className='text-xs font-space'>
                             Years of Experience
                         </span>
-                        <span className='text-xs font-bold'>
+                        <span className='text-xs font-bold font-space'>
                             10+
                         </span>
                     </div>
                     <div className='flex flex-row justify-between '>
-                        <span className='text-xs'>
+                        <span className='text-xs font-space'>
                             Communication Skills
                         </span>
                         <span className='mb-2 '>
@@ -53,7 +53,7 @@ export default function ExpertTab() {
                         </span>
                     </div>
                 </div>
-                    <span className='text-xs font-bold pl-3'>
+                    <span className='text-xs font-bold pl-3 font-space'>
                         40hrs/Week
                     </span>
                 <div className="bg-gray-200 h-[6px] rounded-full mx-2">

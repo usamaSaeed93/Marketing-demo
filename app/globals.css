@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,15 +17,17 @@
 }
 
 body {
-  
- 
+  font-family: 'Space Grotesk', sans-serif;
+}
+html{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .quality__tile{
   @apply text-[20px] font-medium bg-bgButton flex justify-center items-center text-center text-white w-[260px] h-[76px] rounded-[38px] border-[12px] border-white outline-white;
 }
 .common__headings{
-  @apply text-[40px] text-center md:text-[45px] lg:text-[50px] font-medium;
+  @apply text-[40px] text-center md:text-[45px] lg:text-[50px] font-medium font-space ;
 }
 .ul__list{
  @apply  w-[269px] h-[350px];
@@ -75,7 +77,7 @@ body {
  @apply w-full md:w-[225px] h-[60px] border border-gray-300 px-4 rounded-lg focus:outline-none focus:border-bgButton;
 }
 .large__input{
-  @apply w-full max-w-[550px] h-[60px] border border-gray-300 px-4 rounded-lg focus:outline-none focus:border-bgButton;
+  @apply w-full max-w-[550px]  h-[60px] border border-gray-300 px-4 rounded-lg focus:outline-none focus:border-bgButton;
 }
 .bg__black{
   background-image: url(../Assets/Images/png/Black-bg.png),url(../Assets/Images/png/grey__bg.png);
@@ -98,5 +100,14 @@ background-size: cover contain;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
+  }
+}
+.trick{
+  gap: 40%;
+}
+@media  screen and (max-width:1025px) {
+  .trick{
+    justify-content: space-around;
+    gap: 0px;
   }
 }

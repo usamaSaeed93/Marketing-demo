@@ -9,8 +9,8 @@ export default function QualityTiles() {
                     </div>
                     <div>
 
-                        <p className='text-3xl md:text-4xl font-medium'>Fluent English</p>
-                        <p className='text-xl md:text-2xl font-normal '>US TIME ZONE</p>
+                        <p className='text-3xl md:text-4xl font-bold font-space'>Fluent English</p>
+                        <p className='text-xl md:text-2xl font-normal font-space'>US TIME ZONE</p>
                     </div>
                 </div>
 
@@ -20,8 +20,8 @@ export default function QualityTiles() {
                     </div>
                     <div>
 
-                        <p className='text-3xl md:text-4xl font-medium'>Rigorous Vetting</p>
-                        <p className='text-xl md:text-2xl font-normal '>Multi-Step Process</p>
+                        <p className='text-3xl md:text-4xl font-bold font-space'>Rigorous Vetting</p>
+                        <p className='text-xl md:text-2xl font-normal font-space'>Multi-Step Process</p>
                     </div>
                 </div>
 
@@ -31,8 +31,8 @@ export default function QualityTiles() {
                     </div>
                     <div>
 
-                        <p className='text-3xl md:text-4xl font-medium'>$15 - $35/hour</p>
-                        <p className='text-xl md:text-2xl font-normal '>Scale up or Down</p>
+                        <p className='text-3xl md:text-4xl font-bold font-space'>$15 - $35/hour</p>
+                        <p className='text-xl md:text-2xl font-normal font-space'>Scale up or Down</p>
                     </div>
                 </div>
 

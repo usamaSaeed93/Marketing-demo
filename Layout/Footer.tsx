@@ -22,22 +22,22 @@ export default function Footer() {
                         src={logo}
                         alt='logo'
                     />
-                    <p className='para mt-[40px] '>Assembly Industries allows companies to scale their business cost effectively by hiring vetted fractional experts.</p>
-                    <span className='text-3xl text-white mb-[30px]'>Links</span>
+                    <p className='para mt-[40px] font-space'>Assembly Industries allows companies to scale their business cost effectively by hiring vetted fractional experts.</p>
+                    <span className='text-3xl text-white mb-[30px] font-space'>Links</span>
                     <div className='flex flex-row gap-10 mb-36' style={{ marginBottom: "150px" }}>
                         <div className='flex flex-col gap-4 mt-4'>
-                            <span className='textfooter'>
+                            <span className='textfooter font-space'>
                                 Privacy Policy
                             </span>
-                            <span className='textfooter'>
+                            <span className='textfooter font-space'>
                                 Terms of Use
                             </span>
                         </div>
                         <div className='flex flex-col gap-4 mt-4'>
-                            <span className='textfooter'>
+                            <span className='textfooter font-space'>
                                 Contact us
                             </span>
-                            <span className='textfooter'>
+                            <span className='textfooter font-space'>
                                 Roles & Capabilities
                             </span>
                         </div>
@@ -51,7 +51,7 @@ export default function Footer() {
                     <Twitter className='text-white font-bold' />
                     <LinkedIn className='text-white font-bold' />
                 </div>
-                <p className='text-base text-white text-center w-1/2 sm:w-full'>© 2023 Assembly Industries. All rights reserved.</p>
+                <p className='text-base text-white text-center w-1/2 sm:w-full font-space'>© 2023 Assembly Industries. All rights reserved.</p>
                 <div className='w-5 h-5 sm:w-10 sm:h-10  fixed rounded-full bg-bgButton text-center  flex items-center justify-center '>
                     <ArrowDropUpIcon className='text-white font-bold mt-2' />
                 </div>

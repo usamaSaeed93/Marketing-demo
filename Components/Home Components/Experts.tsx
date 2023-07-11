@@ -15,12 +15,12 @@ export default function Experts() {
                 <p className='common__headings mx-[80px] lg:mx-[145px] px-4'>We Assemble Expert Teams that Drive Outcomes</p>
                 <div className='flex flex-col justify-evenly md:flex-row mt-10'>
                     <div className='flex justify-center items-center '>
-                        <div className='ul__list'>
+                        <div className='ul__list ml-4'>
                             <ul className='gap-2'>
                                 {
                                     list.map(l => {
                                         return (
-                                            <ul key={l} className={`text-2xl mb-6  ${selectedItem === l ? ' text-bgButton font-bold' : 'text-black'}`}
+                                            <ul key={l} className={`text-2xl mb-6  ${selectedItem === l ? ' text-bgButton font-bold font-space' : 'text-black font-space'}`}
                                                 onClick={() => handleClick(l)}
                                             >{l}</ul>
 
@@ -33,7 +33,7 @@ export default function Experts() {
                     </div>
                     <Automation />
                 </div>
-                <button className='getStarted__button m-auto mt-20'>
+                <button className='getStarted__button m-auto mt-20 shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]'>
                     Get Started
                 </button>
             </div>
