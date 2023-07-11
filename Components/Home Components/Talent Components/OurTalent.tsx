@@ -12,16 +12,16 @@ export default function OurTalent() {
         <QualityTiles />
       </div>
       <div
-        className=" flex flex-row justify-evenly mt-20 m-auto  items-center py-2 bg-bgButton rounded-[35px] shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]"
+        className=" flex flex-row justify-center mt-20 m-auto  items-center py-2 bg-bgButton rounded-[35px] shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]"
         style={{ width: "288px", height: "80px",marginBottom:"265px" }}
       >
         <div className="w-[70px] h-[70px] rounded-full bg-white flex justify-center items-center ">
           <Image src={playicon} alt="play-icon" />
         </div>
-        <div>
-          <p className="text-lg text-white font-medium text-center">Watch</p>
-          <p className="text-lg font-normal w-32 tracking-widest text-white  text-center font-space ">
-            1 min Video <br /> Introduction
+        <div className="text-start py-4">
+          <p className="text-lg text-white font-bold text-center pt-2">Watch</p>
+          <p className="text-lg font-medium w-32  text-white  text-center font-space pb-2">
+            1 min Video<br />Introduction
           </p>
         </div>
       </div>

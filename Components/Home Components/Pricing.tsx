@@ -3,7 +3,7 @@ import React from "react";
 export default function Pricing() {
   return (<>
   
-    <div className="">
+    <div className=" p-4">
       <p className="common__headings pt-24 pb-14">Transparent Pricing</p>
       <div className="flex flex-col md:flex-row  justify-evenly items-center pb-24 gap-4">
 

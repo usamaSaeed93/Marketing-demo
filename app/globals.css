@@ -79,29 +79,6 @@ html{
 .large__input{
   @apply w-full max-w-[550px]  h-[60px] border border-gray-300 px-4 rounded-lg focus:outline-none focus:border-bgButton;
 }
-.bg__black{
-  background-image: url(../Assets/Images/png/Black-bg.png),url(../Assets/Images/png/grey__bg.png);
-  background-position: center bottom, bottom center;
-background-size: cover contain;
-  background-repeat: no-repeat;
- width: 100%;
- 
-}
-
-@layer utilities {
-  @variants responsive {
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-
-    /* Hide scrollbar for IE, Edge and Firefox */
-    .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
-  }
-}
 .trick{
   gap: 40%;
 }
@@ -110,4 +87,7 @@ background-size: cover contain;
     justify-content: space-around;
     gap: 0px;
   }
+}
+.bg_black{
+  background-image: url(../Assets/Images/png/bgBlackShort.png);
 }
