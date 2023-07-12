@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function LogInForm() {
+export default function LoginForm() {
   return (
     <div className="w-full lg:w-1/2 md:p-0 p-4 gap-4 items-center justify-center  flex flex-col lg:mt-0 mt-40 mb-16 lg:mb-0">
       <div className=" text-start max-w-[550px] flex flex-col items-start  pb-10 gap-4">
