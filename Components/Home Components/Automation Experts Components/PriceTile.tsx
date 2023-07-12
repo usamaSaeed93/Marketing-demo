@@ -6,7 +6,7 @@ export default function PriceTile() {
   
   return (
     <>
-    <div className='flex flex-col gap-4 pr-4 justify-center items-center align-middle ml-4'>
+    <div className='flex flex-col gap-4  justify-center items-center align-middle ml-4'>
 
    
     <div className='flex flex-col price__tile  border p-4 border-solid border-black rounded-[23px]'>

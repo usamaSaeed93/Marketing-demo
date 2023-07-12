@@ -3,7 +3,7 @@ import React from 'react'
 export default function QualityTiles() {
     return (
         <>
-            <div className='flex flex-col justify-start items-start gap-5 w-fit'>
+            <div className='flex flex-col justify-start items-start gap-8 w-fit'>
                 <div className='flex flex-row gap-5'>
                     <div className='w-3 md:w-4 h-16 md:h-20 bg-bgButton rounded-xl opacity-25'>
                     </div>

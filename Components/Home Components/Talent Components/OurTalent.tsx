@@ -7,12 +7,12 @@ export default function OurTalent() {
   return (
     <>
     <p className="text-black text-center  text-5xl  font-medium leading-tight font-space " style={{marginBottom:"112px", marginTop:"80px"}}>Let’s Talk about Our Talent</p>
-      <div className="flex flex-col-reverse gap-y-10  md:flex-row  justify-evenly items-center ">
+      <div className="flex flex-col-reverse gap-y-10  md:flex-row  justify-center gap-[5%] items-center ">
         <TalentTab />
         <QualityTiles />
       </div>
       <div
-        className=" flex flex-row justify-center mt-20 lg:mb-64 md:mb-20 xsm:mb-10 mb-64 m-auto  items-center py-2 bg-bgButton rounded-[35px] shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]"
+        className=" flex flex-row justify-center mt-20 lg:mb-64 md:mb-20 xsm:mb-10 mb-32 m-auto  items-center py-2 bg-bgButton rounded-[35px] shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]"
         style={{ width: "288px", height: "80px", }}
       >
         <div className="w-[70px] h-[70px] rounded-full bg-white flex justify-center items-center ">
