@@ -9,8 +9,6 @@ import Experts from './Components/Home Components/Experts'
 
 function Rough() {
   const styles={
-  
-
     width:"100%"
   }
   return (

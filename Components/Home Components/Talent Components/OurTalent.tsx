@@ -12,8 +12,8 @@ export default function OurTalent() {
         <QualityTiles />
       </div>
       <div
-        className=" flex flex-row justify-center mt-20 m-auto  items-center py-2 bg-bgButton rounded-[35px] shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]"
-        style={{ width: "288px", height: "80px",marginBottom:"265px" }}
+        className=" flex flex-row justify-center mt-20 lg:mb-64 md:mb-20 xsm:mb-10 mb-64 m-auto  items-center py-2 bg-bgButton rounded-[35px] shadow-[0px_30px_40px_-20px] shadow-[#4F59CC]"
+        style={{ width: "288px", height: "80px", }}
       >
         <div className="w-[70px] h-[70px] rounded-full bg-white flex justify-center items-center ">
           <Image src={playicon} alt="play-icon" />

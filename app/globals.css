@@ -89,5 +89,14 @@ html{
   }
 }
 .bg_black{
-background-image: url(./background.svg);
+background-image: url('/Images/Blackbg.png'),url("/Images/grey__bg.png");
+background-repeat: no-repeat;
+background-position: bottom,center;
+height: 100%;
+}
+@media  screen and (max-width:400px) {
+  .bg_black{
+    background-image: url('/Images/black__small.png'),url("/Images/grey__small.png");
+width: 100%;
+    }
 }

@@ -29,7 +29,7 @@ export default function EasyHiring() {
             <Image
                 src={arrow}
                 alt='arrow'
-                className='rotate-90 md:rotate-0'
+                className='rotate-90 lg:rotate-0'
             />
             <div className='flex flex-col gap-[20px]  '>
 
