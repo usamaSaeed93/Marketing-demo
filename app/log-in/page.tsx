@@ -1,7 +1,7 @@
 import React from "react";
 import Side from "@/Components/Form/FormSide/Side";
 import Footer from "@/Layout/Footer";
-import LoginForm from "@/Components/Form/LogInForm";
+import LoginForm from "@/Components/Form/LoginForm";
 import FormNavbar from "@/Layout/FormNavbar";
 
 
