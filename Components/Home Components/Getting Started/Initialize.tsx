@@ -14,7 +14,7 @@ function Initialize() {
         
           Getting started is easy
         </p>
-        <div className="grid  grid-cols-1 xsm:grid-cols-2 sm:gap-4 gap-4 md:grid-cols-2 lg:grid-cols-4 md:ml-[10%] lg:ml-0 m-auto md:m-0 p-auto px-2  xsm:pb-0 lg:pb-20 pb-20">
+        <div className="grid  grid-cols-1 xsm:grid-cols-2 sm:gap-4 gap-4 md:grid-cols-2 lg:grid-cols-4 md:ml-[10%] lg:ml-0 m-auto md:m-0 p-auto px-2  xsm:pb-0 lg:pb-20 pb-20 max-w-">
             <div className="flex-flex-col ">
             <p className="text-white text-2xl font-space font-medium text-center w-[220px] m-auto sm:m-3 lg:m-auto pb-4"> Tell us what you need done</p>
           <Writtings />
@@ -35,7 +35,7 @@ function Initialize() {
           <Platform />
             </div>
         </div>
-        <button className="getStarted__button m-auto mb-0 my-2 xsm:mb-2 sm:mb-2 lg:mb-36 shadow-[0px_30px_40px_-20px] shadow-[#4F59CC] font-space">
+        <button className="getStarted__button m-auto mb-10  xsm:mb-2 sm:my-20 lg:mb-36 shadow-[0px_30px_40px_-20px] shadow-[#4F59CC] font-space">
           Get Started
         </button>
         {/* <Image

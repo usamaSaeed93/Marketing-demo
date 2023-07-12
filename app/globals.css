@@ -93,10 +93,30 @@ background-image: url('/Images/Blackbg.png'),url("/Images/grey__bg.png");
 background-repeat: no-repeat;
 background-position: bottom,center;
 height: 100%;
+
+}
+
+@media screen and (min-width:1200px){
+  .bg_black{
+    background-size: 100% 50%, 100% 75% ;
+  }
+}
+@media  screen and (max-width:1000px) {
+  .bg_black{
+    background-size: 1000px 50%, 1000px 50%;
+  
+  }
+}
+  @media  screen and (max-width:700px) {
+    .bg_black{
+      background-size: auto;
+    }
+
 }
 @media  screen and (max-width:400px) {
   .bg_black{
     background-image: url('/Images/black__small.png'),url("/Images/grey__small.png");
-width: 100%;
+background-size: auto;
+
     }
 }
